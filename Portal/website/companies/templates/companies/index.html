@@ -1,0 +1,645 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <title>{% block title %}PGAS{% endblock %}</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="{% static 'PG/css/isotope.css' %}" media="screen" />
+		<link rel="stylesheet" href="{% static 'PG/js/fancybox/jquery.fancybox.css' %}" type="text/css" media="screen" />
+		<link rel="stylesheet" href="{% static 'PG/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'PG/css/bootstrap-theme.css' %}">
+		<link href="{% static 'PG/css/responsive-slider.css' %}" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'PG/css/animate.css' %}">
+        <link rel="stylesheet" href="{% static 'PG/css/style.css' %}">
+
+		<link rel="stylesheet" href="{% static 'PG/css/font-awesome.min.css' %}">
+		<!-- skin -->
+		<link rel="stylesheet" href="{% static 'PG/skin/default.css' %}">
+
+
+        <!-- =======================================================
+            Theme Name: Green
+            Theme URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
+            Author: BootstrapMade
+            Author URL: https://bootstrapmade.com
+        ======================================================= -->
+    </head>
+{% block body %}
+    <body>
+
+
+	<div class="header">
+	<section id="header" class="appear">
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+		<!-- <div class="navbar navbar-fixed-top" > -->
+
+				<div class="navbar-header" >
+					<h1><a class="navbar-brand" href="#" >Public Grievance Addressal System
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" >
+						<li class="active"><a href="#section-home">Home</a></li>
+            <li><a href="#section-problems">Reported Problems</a></li>
+						<!-- <li><a href="#section-about">About</a></li> -->
+						<li><a href="#services">Service</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#section-contact">Contact</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+
+</nav>
+
+	</section>
+	</div>
+
+<section id="section-home" class="section appear clearfix">
+<br>
+<div class="slider">
+		<div id="about-slider">
+			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators visible-xs">
+					<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-slider" data-slide-to="1"></li>
+					<li data-target="#carousel-slider" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active" >
+						<img src="{% static 'PG/img/report.jpg' %}" class="img-responsive" alt="">
+				    </div>
+            <div class="carousel-caption">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+								<!-- <h2><span>Clean Modern Design Template</span></h2> -->
+							</div>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+									<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing</p> -->
+								</div>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+								<form class="form-inline">
+									<div class="form-group">
+										<!-- <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button> -->
+									</div>
+									<div class="form-group">
+										<!-- <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button> -->
+									</div>
+								</form>
+							</div>
+						</div>
+
+
+				    <div class="item">
+						<img src="{% static 'PG/img/people.jpg' %}" class="img-responsive" alt="">
+						</div>
+
+            <div class="item">
+            <img src="{% static 'PG/img/urban.jpg' %}" class="img-responsive" alt="">
+            </div>
+
+      	</div>
+
+				<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+
+				<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div> <!--/#carousel-slider-->
+		</div><!--/#about-slider-->
+	</div><!--/#slider-->
+</section>
+	<!--about-->
+	<!-- <section id="section-about">
+		<div class="container">
+			<div class="about">
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="title">
+							<div class="wow bounceIn">
+
+							<h2 class="section-heading animated" data-animation="bounceInUp">About Us</h2>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+						<div >
+
+								<center><h4> We are the students of IIIT Sricity.</h4></center>
+								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Fusce dapibus, tellus ac cursus etiam porta sem malesuada magna mollis euismod. commodo, Faccibus mollis interdum. Morbi leo risus, porta ac, vestibulum at eros.
+								  Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Fusce dapibus, tellus ac.</p>
+
+<br></br><br></br><br></br><br></br>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section> -->
+	<!--/about-->
+
+
+		<!-- services -->
+		<section id="services" class="section pad-bot5 bg-white">
+		<div class="container">
+				<div class="row mar-bot5">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+						<div class="wow bounceIn"data-animation-delay="7.8s">
+
+							<h2 class="section-heading animated"  >Our Service</h2>
+							<!-- <h4>Neque porro quisquam est, qui dolorem ipsum quia dolor.</h4> -->
+
+						</div>
+						</div>
+					</div>
+				</div>
+			<div class="row mar-bot40">
+				<div class="col-lg-4" >
+					<div class="wow bounceIn">
+						<div class="align-center">
+
+							<div class="wow rotateIn">
+								<div class="service-col">
+									<div class="service-icon">
+										<figure><i class="fa fa-cog"></i></figure>
+									</div>
+										<h2><a href="#">Motivation</a></h2>
+										<p>Communities evolve at an exponential level
+everyday. Hence the problems
+too keep increasing at a significantly larger rate.
+Typical problems in urban community vary from generic
+to specific at few levels. However, our attention is focussed
+to generic problems that are faced by a large community
+of people. So there is an essential need to resolve these
+grievances as attentive as possible through a dedicated system which
+can be deployed throughout all of the existing urban communities.
+
+</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<div class="wow bounceIn">
+
+							<div class="wow rotateIn">
+								<div class="service-col">
+									<div class="service-icon">
+										<figure><i class="fa fa-desktop"></i></figure>
+									</div>
+										<h2><a href="#">Overview</a></h2>
+										<p>PGAS is a technological solution to the
+ever growing problems encountered by the
+urban people everyday. It helps to
+maintain a transparent relationship among
+the municipal corporations and the citizens
+in the urban community. It is an easy way of
+gathering the problems from the people and
+resolve them at the earliest by the management
+authorities.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<div class="wow bounceIn">
+							<div class="service-col">
+								<div class="service-icon">
+									<figure><i class="fa fa-dropbox"></i></figure>
+								</div>
+									<h2><a href="#">What it does ??</a></h2>
+									<p>Citizens can lodge their grievances through
+a smart-phone app. Citizens can monitor the
+status of the reported problem using a token number
+generated after reporting a problem. Since the system
+is a common solution to both citizens and authorities,
+the authorities can review and resolve the problems
+reported by the citizens and take responsible actions
+as per the required situation. The authorities activity
+is also recorded and this enables to maintain a transparent
+rapport between citizens and authorities
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		</section>
+		<!--/services-->
+
+		<!-- spacer section:testimonial -->
+
+		<!-- team -->
+		<section id="team" class="team-section appear clearfix">
+		<div class="container">
+
+				<div class="row mar-bot10">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+						<div class="wow bounceIn">
+
+							<h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+              <p>Web Contributors</p>
+
+
+						</div>
+						</div>
+					</div>
+				</div>
+        <div class="col-md-4">
+
+          <div class="wow bounceIn">
+          <div class="team-member">
+            <div class="profile-picture">
+              <figure><img src="{% static 'PG/img/sunil.jpg' %}" alt=""></figure>
+              <div class="profile-overlay"></div>
+                <div class="profile-social">
+                  <div class="icons-wrapper">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="team-detail">
+              <h4>Sunil Kumar</h4>
+              <span>Back End</span>
+            </div>
+            <div class="team-bio">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p> -->
+            </div>
+          </div>
+          </div>
+        </div>
+
+						<div class="col-md-4">
+
+							<div class="wow bounceIn">
+							<div class="team-member">
+								<div class="profile-picture">
+									<figure><img src="{% static 'PG/img/vamshi.jpg' %}" alt=""></figure>
+									<div class="profile-overlay"></div>
+										<div class="profile-social">
+											<div class="icons-wrapper">
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-linkedin"></i></a>
+												<a href="#"><i class="fa fa-pinterest"></i></a>
+												<a href="#"><i class="fa fa-google-plus"></i></a>
+											</div>
+										</div>
+								</div>
+								<div class="team-detail">
+									<h4>Vamshi Krishna Repala</h4>
+									<span>Front End</span>
+								</div>
+								<div class="team-bio">
+								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p> -->
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="wow bounceIn">
+							<div class="team-member">
+								<div class="profile-picture">
+									<figure><img src="{% static 'PG/img/vineeth.jpg' %}" alt=""></figure>
+									<div class="profile-overlay"></div>
+										<div class="profile-social">
+											<div class="icons-wrapper">
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-linkedin"></i></a>
+												<a href="#"><i class="fa fa-pinterest"></i></a>
+												<a href="#"><i class="fa fa-google-plus"></i></a>
+											</div>
+										</div>
+								</div>
+								<div class="team-detail">
+									<h4>K V Sai Vineeth</h4>
+									<span>Back End</span>
+								</div>
+								<div class="team-bio">
+								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p> -->
+								</div>
+							</div>
+							</div>
+						</div>
+
+            <div class="col-md-4">
+							<div class="wow bounceIn">
+							<div class="team-member">
+								<div class="profile-picture">
+									<figure><img src="{% static 'PG/img/pavan.jpg' %}" alt=""></figure>
+									<div class="profile-overlay"></div>
+										<div class="profile-social">
+											<div class="icons-wrapper">
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-linkedin"></i></a>
+												<a href="#"><i class="fa fa-pinterest"></i></a>
+												<a href="#"><i class="fa fa-google-plus"></i></a>
+											</div>
+										</div>
+								</div>
+								<div class="team-detail">
+									<h4>Pavan Dhawalesvarapu</h4>
+									<span>Front End</span>
+								</div>
+								<!-- <div class="team-bio">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
+								</div> -->
+							</div>
+							</div>
+						</div>
+
+
+					</div>
+
+		</div>
+
+  <!--  <div class="container">
+
+        <div class="row mar-bot10">
+          <div class="col-md-offset-3 col-md-6">
+            <div class="section-header">
+            <div class="wow bounceIn">
+
+              <!-- <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+              <b>Mobile App Contributors</b>
+
+<!--
+            </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="row align-center mar-bot45">
+            <div class="col-md-4">
+            <div class="wow bounceIn" data-animation-delay="4.8s">
+              <div class="team-member">
+                <div class="profile-picture">
+                  <figure><img src="{% static 'PG/img/members2.jpg' %}" alt=""></figure>
+                  <div class="profile-overlay"></div>
+                    <div class="profile-social">
+                      <div class="icons-wrapper">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="team-detail">
+                  <h4>Bharath</h4>
+                  </div>
+                <div class="team-bio">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+
+              <div class="wow bounceIn">
+              <div class="team-member">
+                <div class="profile-picture">
+                  <figure><img src="{% static 'PG/img/members3.jpg' %}" alt=""></figure>
+                  <div class="profile-overlay"></div>
+                    <div class="profile-social">
+                      <div class="icons-wrapper">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="team-detail">
+                  <h4>Shanmukh Reddy</h4>
+                </div>
+                <div class="team-bio">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wow bounceIn">
+              <div class="team-member">
+                <div class="profile-picture">
+                  <figure><img src="{% static 'PG/img/members2.jpg' %}" alt=""></figure>
+                  <div class="profile-overlay"></div>
+                    <div class="profile-social">
+                      <div class="icons-wrapper">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="team-detail">
+                  <h4>Dinesh</h4>
+                  </div>
+                <div class="team-bio">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
+                </div>
+              </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+    </div>
+
+		</section>
+		<!-- /team -->
+ <section id="section-problems" class="section appear clearfix">
+            <div class="container">
+
+
+                <div class="row mar-bot40">
+                    <div class="col-md-offset-3 col-md-6">
+                        <div class="section-header">
+                            <h2 class="section-heading animated" data-animation="bounceInUp">Reported Problems</h2>
+                        </div>
+                    </div>
+                </div>
+
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="row">
+                              <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                             {% for album in albums.s1 %}
+                                <article class="col-md-4 isotopeItem webdesign">
+                                    <div class="portfolio-item">
+                                    <div class="wow rotateInUpLeft" data-animation-delay="4.8s">
+                                        <img src="data:image/jpeg;base64,{{album.data}}" alt="welcome" width="200px" />
+                                    </div>
+                                         <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <h5><a href="#">{{album.desc}}</a></h5>
+                                              <a href="{% url 'companies:albdetail' album.id %}" class="btn btn-primary btn-sm" role="button">View Details</a>
+
+                                             </div>
+                                         </div>
+                                    </div>
+                                </article>
+        {% endfor %}
+                                        {% for album in albums.s2 %}
+                                <article class="col-md-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                    <div class="wow bounceIn">
+                                        <img src="data:image/jpeg;base64,{{album.data}}" alt="" width="200px" />
+                                    </div>
+                                         <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <h5><a href="#">{{album.desc}}</a></h5>
+                                               <a href="{% url 'companies:albdetail' album.id %}" class="btn btn-primary btn-sm" role="button">View Details</a>
+
+                                             </div>
+                                         </div>
+                                    </div>
+                                </article>
+                                 {% endfor %}
+ {% for album in albums.s3 %}
+                                <article class="col-md-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                    <div class="wow rotateInDownRight">
+                                        <img src="data:image/jpeg;base64,{{album.data}}" alt="" width="200px" />
+                                    </div>
+                                         <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <h5><a href="#">{{album.desc}}</a></h5>
+                                               <a href="{% url 'companies:albdetail' album.id %}" class="btn btn-primary btn-sm" role="button">View Details</a>
+
+                                             </div>
+                                         </div>
+                                    </div>
+                                </article>
+ {% endfor %}
+
+                                </div>
+
+                            </div>
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </section>
+
+
+
+		<!-- contact -->
+		<section id="section-contact" class="section appear clearfix">
+			<div class="container">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Contact us : Under Development</h2>
+							<p>Any feedback/suggestions/issues?? You can message here..</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <form action="#" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+
+                            <div class="text-center"><button type="submit" href="#" class="line-btn green">Send Message</button></div>
+                        </form>
+					</div>
+					<!-- ./span12 -->
+				</div>
+
+			</div>
+		</section>
+		<!-- map -->
+
+
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+{% endblock %}
+<script src="{% static 'PG/js/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.js' %}"></script>
+<script src="{% static 'PG/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'PG/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.isotope.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.nicescroll.min.js' %}"></script>
+<script src="{% static 'PG/js/fancybox/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'PG/js/skrollr.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.scrollTo-1.4.3.1-min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.localscroll-1.2.7-min.js' %}"></script>
+<script src="{% static 'PG/js/stellar.js' %}"></script>
+<script src="{% static 'PG/js/responsive-slider.js' %}"></script>
+<script src="{% static 'PG/js/jquery.appear.js' %}"></script>
+<script src="{% static 'PG/js/grid.js' %}"></script>
+  <script src="{% static 'PG/js/main.js' %}"></script>
+  <script src="{% static 'PG/js/wow.min.js' %}"></script>
+<script>wow = new WOW({}).init();</script>
+  <script src="{% static 'PG/contactform/contactform.js' %}"></script>
+</body>
+</html>
+

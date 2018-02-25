@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <title>{% block title %}PGAS{% endblock %}</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="{% static 'PG/css/isotope.css' %}" media="screen" />
+		<link rel="stylesheet" href="{% static 'PG/js/fancybox/jquery.fancybox.css' %}" type="text/css" media="screen" />
+		<link rel="stylesheet" href="{% static 'PG/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'PG/css/bootstrap-theme.css' %}">
+		<link href="{% static 'PG/css/responsive-slider.css' %}" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'PG/css/animate.css' %}">
+        <link rel="stylesheet" href="{% static 'PG/css/style.css' %}">
+
+		<link rel="stylesheet" href="{% static 'PG/css/font-awesome.min.css' %}">
+		<!-- skin -->
+		<link rel="stylesheet" href="{% static 'PG/skin/default.css' %}">
+
+
+        <!-- =======================================================
+            Theme Name: Green
+            Theme URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
+            Author: BootstrapMade
+            Author URL: https://bootstrapmade.com
+        ======================================================= -->
+    </head>
+{% block body %}
+    <body>
+
+
+	<div class="header">
+	<section id="header" class="appear">
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+		<!-- <div class="navbar navbar-fixed-top" > -->
+
+				<div class="navbar-header" >
+					<h1><a class="navbar-brand" href="#" >Public Grievance Addressal System
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" >
+
+					    <li><a href="{% url 'companies:register' %} " target="_blank">Register</a></a></li>
+					    <li><a href="{% url 'companies:login' %} " target="_blank">Login</a></a></li>
+						<li class="active"><a href="#section-home">Home</a></li>
+            <li><a href="{% url 'companies:problems' %}">Reported Problems</a></li>
+						<!-- <li><a href="#section-about">About</a></li> -->
+						<li><a href="{% url 'companies:service' %}">Service</a></li>
+						<li><a href="{% url 'companies:team' %}">Team</a></li>
+						<li><a href="{% url 'companies:contact' %}">Contact</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+
+</nav>
+
+	</section>
+	</div>
+
+<section id="section-home" class="section appear clearfix">
+<br>
+<div class="slider">
+		<div id="about-slider">
+			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators visible-xs">
+					<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-slider" data-slide-to="1"></li>
+					<li data-target="#carousel-slider" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active" >
+						<img src="{% static 'PG/img/report.jpg' %}" class="img-responsive" alt="">
+				    </div>
+            <div class="carousel-caption">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+								<!-- <h2><span>Clean Modern Design Template</span></h2> -->
+							</div>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+									<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing</p> -->
+								</div>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+								<form class="form-inline">
+									<div class="form-group">
+										<!-- <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button> -->
+									</div>
+									<div class="form-group">
+										<!-- <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button> -->
+									</div>
+								</form>
+							</div>
+						</div>
+
+
+
+            <div class="item">
+            <img src="{% static 'PG/img/urban.jpg' %}" class="img-responsive" alt="">
+            </div>
+
+      	</div>
+
+				<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+
+				<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div> <!--/#carousel-slider-->
+		</div><!--/#about-slider-->
+	</div><!--/#slider-->
+</section>
+
+
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+{% endblock %}
+<script src="{% static 'PG/js/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.js' %}"></script>
+<script src="{% static 'PG/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'PG/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.isotope.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.nicescroll.min.js' %}"></script>
+<script src="{% static 'PG/js/fancybox/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'PG/js/skrollr.min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.scrollTo-1.4.3.1-min.js' %}"></script>
+<script src="{% static 'PG/js/jquery.localscroll-1.2.7-min.js' %}"></script>
+<script src="{% static 'PG/js/stellar.js' %}"></script>
+<script src="{% static 'PG/js/responsive-slider.js' %}"></script>
+<script src="{% static 'PG/js/jquery.appear.js' %}"></script>
+<script src="{% static 'PG/js/grid.js' %}"></script>
+  <script src="{% static 'PG/js/main.js' %}"></script>
+  <script src="{% static 'PG/js/wow.min.js' %}"></script>
+<script>wow = new WOW({}).init();</script>
+  <script src="{% static 'PG/contactform/contactform.js' %}"></script>
+</body>
+</html>
+
