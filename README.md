@@ -13,4 +13,4 @@
 3. [Class Diagram](Docs/ITS_ClassDiagram.pdf)
 4. [Sequence Diagram](Docs/SequenceDiagrams.pdf)
 5. [Use Case Diagram](Docs/UseCaseDiagram.pdf) & [its test cases](Docs/useCases_testCases.pdf)
-6. UI Prototyping ([WireFrame](Docs/UI_Prototyping (Pen_Paper).pdf), [Pen_Paper](Docs/UI_Prototyping (WireFrame).pdf)
+6. UI Prototyping ([WireFrame](Docs/UI_Prototyping%20(Pen_Paper).pdf), [Pen_Paper](Docs/UI_Prototyping%20(WireFrame).pdf)
