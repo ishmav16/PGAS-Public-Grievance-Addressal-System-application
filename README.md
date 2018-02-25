@@ -9,8 +9,8 @@
 
 # Documents related to this application
 1. [FRS (Features Requirement Specification) document](Docs/FRS_doc.pdf)
-2. [SRS (Software Requirement Specification) document](Docs/SRS_doc.pdf)
-3. [Class Diagram](Docs/ITS_ClassDiagram)
-4. [Sequence Diagram](Docs/SequenceDiagrams)
-5. [Use Case Diagram](Docs/UsecaseDiagram) & [its test cases](Docs/useCases_testCases.pdf)
-6. UI Prototyping ([WireFrame](Docs/UI_Prototyping (Pen_Paper)), [Pen_Paper](Docs/UI_Prototyping (WireFrame))
+2. [SRS (Software Requirement Specification) document](Docs/SRS_Doc.pdf)
+3. [Class Diagram](Docs/ITS_ClassDiagram.pdf)
+4. [Sequence Diagram](Docs/SequenceDiagrams.pdf)
+5. [Use Case Diagram](Docs/UseCaseDiagram.pdf) & [its test cases](Docs/useCases_testCases.pdf)
+6. UI Prototyping ([WireFrame](Docs/UI_Prototyping (Pen_Paper).pdf), [Pen_Paper](Docs/UI_Prototyping (WireFrame).pdf)
