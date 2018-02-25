@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/dinesh/Documents/need/ITs/2/D:\\applications\\2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/dinesh/Documents/need/ITs/2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/dinesh/.android/build-cache/4b05727b612f2f60ec4d750212c813099d2c59d3/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]
